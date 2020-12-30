@@ -1,4 +1,3 @@
 # Introduction to C++
 
-Lesson 1: Variables
-Lesson 2: Conditionals and Scope
+Compilation of Lesson Plans Designed for intro level programming for C++
