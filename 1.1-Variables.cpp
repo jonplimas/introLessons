@@ -12,7 +12,8 @@
 
 using namespace std;
 
-int main() {
+int main() { // BEGINNING OF MAIN 
+  
 
   // VARIABLES:
   // A temporary space in memory that 
@@ -34,7 +35,6 @@ int main() {
 
   // Variable Declaration: reserving space for data
   int age; 
-  string name;
 
   // cout = "console output"      used to print
   cout << "Age: " << age << endl;    // endl = "endline"
@@ -47,27 +47,30 @@ int main() {
   age = 23;
   cout << "Age is now " << age << endl;
 
-  // expressions can also be used to 
-  age = 23 + 1;
+  // expressions can also be used to assign a value to a var.
+  age = 23 + 2;
+  cout << "After two years, age is " << age << endl;
 
 
-  cout << "After one year, age is " << age << endl;
+
   // What if we want user to assign a variable's value?
   // "console input"
   cin >> age;      //
   cout << "Time travelled where age is " << age << endl; 
 
-  
-  //More Examples... 
-  char firstInitial = 'J';      // 
-  string lastName =  "Limas";   // 
- 
 
-  bool isOlder; // Bool
+  // CHALLENGE 1: 
+  // Declare a string variable called "name".
+  // Assign the variable as your name. 
+  
+
+  // CHALLENGE 2: Declare another string variable. 
+  // Use cin statement to allow for user input.
+
 
 
   return 0;
+  // END OF MAIN
 }
-
 
 
